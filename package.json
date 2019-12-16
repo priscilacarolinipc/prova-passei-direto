@@ -1,0 +1,29 @@
+{
+  "name": "provapasseidireto",
+  "version": "1.0.0",
+  "description": "Prova passei direto",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilacarolinipc/prova-passei-direto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilacarolinipc/prova-passei-direto/issues"
+  },
+  "homepage": "https://github.com/priscilacarolinipc/prova-passei-direto#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
