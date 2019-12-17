@@ -9,6 +9,11 @@ module.exports = app => {
         Disc.findById(id,res)
     })
 
+    app.post('/discs/title', (req, res) => {
+        const title = req.body.title
+        Disc.findByName(title,res)
+    })
+
     app.post('/discs', (req, res) => {
         const catalog = req.body
         Disc.add(catalog, res)
